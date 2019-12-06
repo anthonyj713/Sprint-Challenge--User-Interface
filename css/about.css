@@ -84,7 +84,7 @@ nav a{
     color: black;
     width: 80%;
 }
-.city{
+img.jumbo-about{
     display:flex;
     justify-content: center;
     text-align: center;
@@ -98,4 +98,23 @@ nav a{
     width: 800px;
     margin: 0 auto;
 }
-
+body{
+    display:flex;
+    flex-wrap: wrap;
+}
+.strategy{
+    display:flex;
+    flex-direction: column;
+}
+.work{
+    display:flex;
+    flex-direction: column;
+}
+.office{
+    display:flex;
+    flex-direction: column;
+}
+.collaboration{
+    display:flex;
+    flex-direction: column;
+}
