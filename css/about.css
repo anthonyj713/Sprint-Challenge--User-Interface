@@ -88,33 +88,59 @@ img.jumbo-about{
     display:flex;
     justify-content: center;
     text-align: center;
-    margin-left:100%;
-    margin-bottom: 2%;
     width:800px;
-    margin: 0 auto;
-    border:5px solid red;
+    margin: 2% auto;
 }
-.container {
+html {
     width: 800px;
     margin: 0 auto;
 }
-body{
+.content{
     display:flex;
+    flex-direction:row;
+    align-content:space-around;
     flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 3% 0;
 }
-.strategy{
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:30%;
+    border: 2px solid black;
+    border-radius:15%;
+    height:40px;
+}
+.contentItem{
     display:flex;
     flex-direction: column;
+    width:40%;
+    margin-bottom: 3%;
 }
-.work{
-    display:flex;
-    flex-direction: column;
+.fourpic{
+    width:300px;
 }
-.office{
-    display:flex;
-    flex-direction: column;
+.conclusion{
+    margin:3% 0%;
 }
-.collaboration{
-    display:flex;
-    flex-direction: column;
+footer {
+    width: 100%;
+    background: black;
 }
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
